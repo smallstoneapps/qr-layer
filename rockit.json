@@ -2,7 +2,7 @@
   "name": "qr-layer",
   "version": "1.0",
   "includes": [ "lib" ],
-  "sources": [ "QR_Encode.c", "qr-layer.c" ],
+  "sources": [ "lib/QR_Encode.c", "lib/qr-layer.c" ],
   "js": [],
   "repository": {
     "type": "git",
