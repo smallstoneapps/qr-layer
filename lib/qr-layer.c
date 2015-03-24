@@ -15,6 +15,10 @@ QRLayer* qr_layer_create(GRect bounds) {
   return qr_layer;
 }
 
+QRLayer* qr_layer_create_max() {
+  return qr_layer_create(GRect(0, 12, 144, 144));
+}
+
 void qr_layer_set_data(QRLayer* layer, char* data) {
   QRData* qr_data = (QRData*) layer_get_data(layer);
   qr_data->width = EncodeData(QR_LEVEL_L, 0, data, 0, qr_data->str);
