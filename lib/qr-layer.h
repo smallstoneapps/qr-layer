@@ -1,6 +1,16 @@
 #pragma once
 
 #include <pebble.h>
+#include "QR_Encode.h"
+
+#define DEFAULT_BG_COLOR GColorWhite
+
+#define DEFAULT_FILL_COLOR GColorBlack
+
+typedef struct QRData {
+  unsigned char str[MAX_BITDATA];
+  uint8_t width;
+} QRData;
 
 typedef Layer QRLayer;
 
