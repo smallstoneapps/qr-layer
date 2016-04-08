@@ -1,2 +1,3 @@
-demo/build
-demo/.lock-waf*
+.lock*
+build/
+dist.zip
