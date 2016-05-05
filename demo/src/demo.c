@@ -1,5 +1,5 @@
 #include <pebble.h>
-#include <qr-layer.h>
+#include "../include/qr-layer.h"
 
 static void init(void);
 static void deinit(void);
@@ -34,7 +34,8 @@ static void deinit(void) {
 }
 
 static void window_load(Window *window) {
-  s_qr_layer = qr_layer_create(GRect(0, 4, 144, 144));
+  s_qr_layer = qr_layer_create(layer_get_bounds(window_get_root_layer(window)));
+  qr_layer_set_data(s_qr_layer, "HELLO");
   qr_layer_add_to_window(s_qr_layer, s_window);
 }
 
