@@ -1,0 +1,41 @@
+{
+  "name": "@smallstoneapps/qr-layer-demo",
+  "version": "1.0.0",
+  "author": "Matthew Tole",
+  "private": true,
+  "description": "Demo app to show the basic usage of the qr-layer package",
+  "main": "src/demo.c",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@smallstoneapps/qr-layer": "../"
+  },
+  "keywords": [
+    "pebble-app"
+  ],
+  "pebble": {
+    "sdkVersion": "3",
+    "resources": {
+      "media": []
+    },
+    "projectType": "native",
+    "uuid": "2f56fb14-9d70-43ec-b6a1-d94e9ea0f3c3",
+    "messageKeys": {},
+    "enableMultiJS": false,
+    "displayName": "QRCode Layer Demo",
+    "watchapp": {
+      "onlyShownOnCommunication": false,
+      "hiddenApp": false,
+      "watchface": false
+    },
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "capabilities": []
+  }
+}

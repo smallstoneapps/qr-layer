@@ -1,5 +1,5 @@
 {
-  "name": "pebble-qr-layer",
+  "name": "@smallstoneapps/qr-layer",
   "version": "1.0.0",
   "description": "A minimalist QR code layer for Pebble apps and watchfaces.",
   "main": "src/c/qr-layer.c",
@@ -17,12 +17,19 @@
   },
   "homepage": "https://github.com/smallstoneapps/qr-layer#readme",
   "pebble": {
-    "uuid": "004ac657-8371-4ced-a5c7-7ba3203eb528",
+    "projectType": "package",
     "sdkVersion": "3",
-    "enableMultiJS": true,
-    "targetPlatforms": ["aplite", "basalt", "chalk"]
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ]
   },
   "files": [
     "dist.zip"
+  ],
+  "keywords": [
+    "pebble-package"
   ]
 }

@@ -1,3 +1,4 @@
 .lock*
 build/
 dist.zip
+node_modules/
