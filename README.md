@@ -1,4 +1,4 @@
-# QR Layer [![npm (scoped)](https://img.shields.io/npm/v/@smallstoneapps/qr-layer.svg?maxAge=2592000&style=flat-square)](https://www.npmjs.com/package/@smallstoneapps/qr-layer)&nbsp;[![MIT License](http://img.shields.io/badge/license-MIT-lightgray.svg?style=flat-square)](./LICENSE)
+# QR Layer [![npm (scoped)](https://img.shields.io/npm/v/@smallstoneapps/qr-layer.svg?maxAge=2592000&style=flat-square)](https://www.npmjs.com/package/@smallstoneapps/qr-layer)&nbsp;[![MIT License](http://img.shields.io/badge/license-MIT-lightgray.svg?style=flat-square)](./LICENSE) [![Build Status](https://www.bitrise.io/app/6e10bf974a072362.svg?token=5KP1NfZZVZNq78OzvXneUg)](https://www.bitrise.io/app/6e10bf974a072362)
 
 A minimalist QR code layer for Pebble apps and watchfaces.
 
