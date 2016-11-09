@@ -1,6 +1,6 @@
 {
   "name": "@smallstoneapps/qr-layer-demo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Matthew Tole",
   "private": true,
   "description": "Demo app to show the basic usage of the qr-layer package",
@@ -34,7 +34,9 @@
     "targetPlatforms": [
       "aplite",
       "basalt",
-      "chalk"
+      "chalk",
+      "diorite",
+      "emery"
     ],
     "capabilities": []
   }

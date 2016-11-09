@@ -1,6 +1,6 @@
 {
   "name": "@smallstoneapps/qr-layer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A minimalist QR code layer for Pebble apps and watchfaces.",
   "main": "src/c/qr-layer.c",
   "scripts": {
@@ -23,7 +23,8 @@
       "aplite",
       "basalt",
       "chalk",
-      "diorite"
+      "diorite",
+      "emery"
     ]
   },
   "files": [
